@@ -1,0 +1,7 @@
+﻿@model Steps_d
+@{
+    double cal = Model.Steps * 0.04;
+}
+<p>You Burned about @cal Cal/step</p>
+
+ <a asp-controller = "Pedometer" asp-action = "Steps"> <input type="submit" value="Back"> </a>
